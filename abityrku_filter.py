@@ -40,10 +40,10 @@ target_name = 'Яворський І. А.'  # Hardcoded for now; consider making
 
 # Find all relevant rows
 abityrku = soup.find_all('tr', class_='application-status application-status-14')
-print (soup)
-print("_______________________________________________________\n_______________________________________________________\n_______________________________________________________\n_______________________________________________________")
 
-print(abityrku)
+
+
+
 # Process each application row
 for abityrka in abityrku:
     # Extract and clean name and priority
